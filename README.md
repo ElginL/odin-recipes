@@ -1,3 +1,3 @@
-A website filled with recipes.
-Skills Demonstrated:
+A website filled with recipes.<br/>
+Skills Demonstrated:<br/>
 Basic HTML, CSS
