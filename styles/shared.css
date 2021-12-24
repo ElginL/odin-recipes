@@ -1,11 +1,62 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+html {
+    margin-bottom: 50px;
+}
+
 body {
     margin: 0;
 }
 
-main {
+main,
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 90vh;
+}
+
+hr {
+    margin: 30px 0 30px 0;
+    width: 95vw;
+    border-color: rgba(211, 211, 211, 0.3);
+}
+
+.food-img {
+    height: auto;
+    width: 30%;
+}
+
+.food-title {
+    font-size: 2.5rem;
+}
+
+.food-desc-content {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.description,
+.ingredients-title,
+.steps-title {
+    margin: 0 0 16px 0;
+    font-size: 1.9rem;
+}
+
+.ingredients-list {
+    list-style-type: circle;
+    font-size: 1.1rem;
+    padding-left: 16px;
+}
+
+.steps-list {
+    padding-left: 16px;
+    font-size: 1.1rem;
+}
+
+.steps-list li {
+    margin: 10px 0;
 }

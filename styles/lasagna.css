@@ -1,0 +1,9 @@
+header {
+    height: 100%;
+}
+
+main {
+    display: block;
+    height: 100%;
+    margin: 5px 30px 30px 30px;
+}
